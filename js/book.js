@@ -105,6 +105,7 @@ function confirmBooking() {
         selectedDay,
         setDate,
         daysLen = days.length;
+    selectedDayParam = selectedDay = new Date(year, month, day);
 // options should like '2014-01-01'
     function Calendar(selector, options) {
         this.options = options;
@@ -137,7 +138,6 @@ function confirmBooking() {
      };
     
     Calendar.prototype.drawDays = function() {
-        selectedDayParam = selectedDay = new Date(year, month, day);
         var startDay = new Date(year, month, 1).getDay(),
             nDays = new Date(year, month + 1, 0).getDate(),
             n = startDay;
