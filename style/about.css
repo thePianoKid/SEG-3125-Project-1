@@ -1,0 +1,12 @@
+img, h5 {
+    cursor: pointer;
+}
+
+.col > h6 {
+    padding-bottom: 70px;
+}
+
+.profile-pic {
+    padding-bottom: 15px;
+    max-width: 40%;
+}
