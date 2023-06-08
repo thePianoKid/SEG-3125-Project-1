@@ -137,9 +137,9 @@ function confirmBooking() {
      };
     
     Calendar.prototype.drawDays = function() {
+        selectedDayParam = selectedDay = new Date(year, month, day);
         var startDay = new Date(year, month, 1).getDay(),
             nDays = new Date(year, month + 1, 0).getDate(),
-    
             n = startDay;
         for(var k = 0; k <42; k++) {
             days[k].innerHTML = '';
