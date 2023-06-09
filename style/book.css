@@ -91,7 +91,8 @@
     -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
     position: relative;
-    z-index: 0; }
+    z-index: 0; 
+    font-size: 20px;}
     tbody td:after {
       position: absolute;
       top: 50%;
@@ -162,3 +163,8 @@
   .flex-break {
     flex-basis: 100%;
     height: 10px; }
+
+  .confirm-btn {
+    position: absolute;
+    right: 25px;
+  }
